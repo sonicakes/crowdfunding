@@ -1,0 +1,31 @@
+body {
+    font-family: 'Commissioner', sans-serif;
+}
+
+.main-nav {
+    display: flex;
+    position: absolute;
+    top: 0;
+
+    & > .container {
+        
+    }
+
+    &__item {
+        &--logo {
+            background-image: url("/images/logo.svg");
+            width: 128px;
+            height: 20px;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+  }
+
+  .banner {
+      position: relative;
+
+      img {
+          width: 100%;
+      }
+  }
